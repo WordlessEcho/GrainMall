@@ -19,6 +19,12 @@
     </properties>
     <dependencies>
         <dependency>
+            <groupId>moe.echo.grainmall</groupId>
+            <artifactId>grainmall-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
@@ -31,6 +37,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>5.1.49</version>
+<!--            <scope>runtime</scope>-->
         </dependency>
     </dependencies>
     <dependencyManagement>

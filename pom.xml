@@ -16,6 +16,7 @@
         <module>grainmall-user</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
+        <module>grainmall-common</module>
     </modules>
 
     <properties>
