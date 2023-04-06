@@ -11,6 +11,7 @@
     <modules>
         <module>grainmall-product</module>
         <module>grainmall-coupon</module>
+        <module>grainmall-gateway</module>
         <module>grainmall-order</module>
         <module>grainmall-storage</module>
         <module>grainmall-user</module>

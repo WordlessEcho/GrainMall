@@ -1,0 +1,13 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: google_route
+          uri: https://www.google.com
+          predicates:
+            - Query=url, google
+
+        - id: telegram_route
+          uri: https://telegram.org
+          predicates:
+            - Query=url, telegram

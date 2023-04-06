@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/grainmall-storage/pom.xml" />
         <option value="$PROJECT_DIR$/grainmall-user/pom.xml" />
         <option value="$PROJECT_DIR$/renren-fast/pom.xml" />
+        <option value="$PROJECT_DIR$/grainmall-gateway/pom.xml" />
       </list>
     </option>
   </component>
