@@ -57,6 +57,7 @@
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+<!--            https://blog.csdn.net/eclipse1024/article/details/115587984-->
             <exclusions>
                 <exclusion>
                     <groupId>org.springframework.cloud</groupId>
@@ -75,6 +76,7 @@
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
+<!--        https://blog.csdn.net/zhiyikeji/article/details/119855619-->
         <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-bootstrap -->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
